@@ -1,45 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+  --width-content-default: 40rem;
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+#root{
   font-family: 'Roboto', system-ui, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
+  gap: 2rem;
 }
 
 .smj-header{
-  background-color: #010101;
-  border-radius: 0.5rem;
-  width: 29rem;
-  height: 2.5rem;
-}
-
-.smj-header .smj-nav{
-  width: 100%;
-  height: 100%; 
+  width: var(--width-content-default);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.smj-header .smj-nav{
+  width: 36rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+
 .smj-nav .smj-a{
-  padding: 0.3rem 0.5rem;
-  font-size: 0.95rem;
-  text-align: center;
-  color: #fff;
+  background-color: #f1f1f1;;
+  width: 10rem;
+  border-radius: 0.65rem;
   text-decoration: none;
+  color: #010101;
+  border: 3px solid #010101;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: ease 0.15s;
 }
 
 .smj-nav .smj-a:hover{
-  background-color: #f1f1f1;
-  color: #010101;
-  border-radius: 0.3rem;
-  transition: ease 0.1s;
+  background-color: #010101;
+  color: #f1f1f1;
 }
+
+
+.smj-main{
+  width: var(--width-content-default);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.smj-main .smj-container-profile{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.smj-container-profile .smj-img{
+  background-color: #ffee00;
+  width: 20%;
+  height: 8rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.smj-img .smj-img-profile{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.smj-container-profile .smj-condition-status{
+  background-color: #d6ffe2;
+  width: 15rem;
+  text-align: center;
+  color: #069201;
+  text-decoration: none;
+  border: 3px solid #22ce00;
+  border-radius: 2rem;
+  padding: 0.4rem;
+  transition: ease 0.2s;
+}
+
+.smj-container-profile .smj-condition-status:hover{
+  background-color: #a5ffc3;
+}
+
+.smj-main .smj-h1{
+  font-size: 3.5rem;
+}
+
+.smj-main .smj-p{
+  font-size: 1.5rem;
+}
+
+.smj-main .smj-span{
+  color: #e7ad0e;
+  font-weight: 500;
+}
+
+.smj-contact-information{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+
+.smj-contact-information .smj-links{
+  background-color: #f0f0f0;
+  color: #010101;
+  text-decoration: none;
+  border: 2px solid #d4d4d4;
+  border-radius: 1rem;
+  padding: 0.5rem 1.8rem;
+}
+
+.smj-contact-information .smj-links:hover{
+  background-color: #3d3d3d;
+  color: #f0f0f0;
+}
+/* .smj-footer{
+
+} */
