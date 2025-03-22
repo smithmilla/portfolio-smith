@@ -1,9 +1,11 @@
 import Presentation from "./presentation";
+import Experience  from "./experience";
 
 const MainContent = () => {
     return (
-        <main>
+        <main className="smj-main-content">
             <Presentation/>
+            <Experience/>
         </main>
     );
 }
