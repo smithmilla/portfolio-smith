@@ -1,5 +1,5 @@
 import ExperienceItem from "./experience-item";
-import ExperiencieIcon from "./icons/experience"
+import ExperiencieIcon from "./icons/experienceIcon"
 import ExperienceData from "./data/experience"
 
 

@@ -1,5 +1,5 @@
-import LinkedInIcon from "./icons/linkedIn";
-import SendEmailIcon from "./icons/sendEmail";
+import LinkedInIcon from "./icons/linkedInIcon";
+import SendEmailIcon from "./icons/SendEmailIcon";
 import InformationContact from "./information-contact";
 
 const Presentation = () => {
@@ -18,7 +18,7 @@ const Presentation = () => {
                 <InformationContact description="Contactame" redirect="mailto:jhonmilla1607@gmail.com" target="_blank" rel="noopener noreferrer" role="link" className="smj-links">
                     <SendEmailIcon/>
                 </InformationContact>
-                <InformationContact description="LinkedIn" redirect="https://www.linkedin.com/in/jhon-smith-milla-jacinto/" target="_blank" rel="noopener noreferrer" role="link" className="smj-links">
+                <InformationContact description="LinkedIn" redirect="https://www.linkedin.com/in/smith-milla/" target="_blank" rel="noopener noreferrer" role="link" className="smj-links">
                     <LinkedInIcon/>
                 </InformationContact>
             </nav>
