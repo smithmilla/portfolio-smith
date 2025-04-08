@@ -4,7 +4,7 @@ import ProjectsItem from "./projects-item";
 
 const projects = () => {
     return (
-        <section className="smj-projects">
+        <section className="smj-projects" id="projects">
             <h2 className="smj-h2">
                 <ProjectsIcon/> Proyectos
             </h2>

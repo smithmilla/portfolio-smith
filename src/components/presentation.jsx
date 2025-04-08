@@ -4,14 +4,14 @@ import InformationContact from "./information-contact";
 
 const Presentation = () => {
     return (
-    <section className="smj-main">
+    <section className="smj-main" id="presentation">
         <div className="smj-container-profile">
                 <div className="smj-img">
                     <img className="smj-img-profile" src="../src/assets/img-profile.PNG" alt="Imagen Perfil Smith Milla" />
                 </div>
                 <div className="smj-condition">
                     <div className="smj-condition-status"></div>
-                    <p>Disponible</p>
+                    <p>Disponible para trabajar</p>
                 </div>
             </div>
             <h1 className="smj-h1">Hola, soy Smith</h1>

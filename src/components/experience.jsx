@@ -5,7 +5,7 @@ import ExperienceData from "./data/experience"
 
 const experiencie = () => {
     return (
-        <section className="smj-experience">
+        <section className="smj-experience" id="experience">
             <h2 className="smj-h2">
                 <ExperiencieIcon/> Experiencia Laboral
             </h2>
