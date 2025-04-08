@@ -74,13 +74,13 @@ const projectsData = [
             {
                 detailKey: 1,
                 detailName: "Code",
-                detailLink: "https://github.com/smithmilla/juego-nro-secreto",
+                detailLink: "https://github.com/smithmilla/challenge-amigo-secreto",
                 detailIcon: GithubIcon
             },
             {
                 detailKey: 2,
                 detailName: "Preview",
-                detailLink: "https://smithmilla.github.io/juego-nro-secreto/",
+                detailLink: "https://smithmilla.github.io/challenge-amigo-secreto/",
                 detailIcon: LinkIcon
             }
         ]
