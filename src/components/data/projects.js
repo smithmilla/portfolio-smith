@@ -46,7 +46,7 @@ const projectsData = [
         ]
     },
     {
-        projectKey: 1,
+        projectKey: 2,
         projectTitle: "Amigo Secreto",
         projectDescription: "Este programa te ayuda a hacer el sorteo de forma rápida, divertida y anónima. Ideal para amigos, familia o compañeros de trabajo que quieran sorprenderse con regalos y disfrutar juntos de una linda tradición.",
         projectImage: "/projects/app-secret-friend.webp",

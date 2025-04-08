@@ -9,7 +9,10 @@ const Presentation = () => {
                 <div className="smj-img">
                     <img className="smj-img-profile" src="../src/assets/img-profile.PNG" alt="Imagen Perfil Smith Milla" />
                 </div>
-                <a href="#" target="_blank" rel="noopener" className="smj-condition-status">Disponible para trabajar</a>
+                <div className="smj-condition">
+                    <div className="smj-condition-status"></div>
+                    <p>Disponible</p>
+                </div>
             </div>
             <h1 className="smj-h1">Hola, soy Smith</h1>
             <p className="smj-p">+2 años de experiencia como <span className="smj-span">desarrollador de software</span> de Lima, Perú 🇵🇪.
